@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    /* background-color: #f2f2f2; */
+}
+
+header {
+    width: 100%;
+}
+
+.row .logo-section {
+    padding: 30px 50px;
+}
+
+.row .menu-section {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+#painter-part {
+    background-image: url(img/image1\ \(2\).jpg);
+    width: 100%;
+    height: 150vh;
+    background-size: cover;
+    padding-top: 30%;
+}
+
+.container {
+    width: 60%;
+    margin-left: 100px;
+}
+
+#painter-part .container p {
+    font-size: 50px;
+}
+
+#painter-part .container h1 {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+#painter-part .container .line {
+    width: 80%;
+    size: 40px;
+    height: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 5px;
+    color: white;
+    margin-top: 20px;
+}
+
+#painter-part .container img {
+    margin-top: 50px;
+    margin-right: 120px;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.p-service, .service-how, .service-routine, .book-service {
+    text-align: center;
+}
+
+.services {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80vh
+}
+
+.p-service {
+    padding-top: 100px;
+    background-color: #f2f2f2
+}
+
+.service-how {
+    padding-top: 30px;
+}
+
+.service-routine{
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.book-service {
+    padding-top: 30px;
+}
+
+.service-btn {
+    background-color: #e71a23;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.plumber-details{
+    display: flex;
+    padding-top: 3%;
+    padding-right: 12%;
+    padding-left: 12%;
+}
+
+.ist-plumber{
+    padding-right: 0px;
+    width: 100%;
+}
+.ist-plumber-img{
+    padding-right: 3%;
+    width: 100%;
+}
+
+.call-section{
+    padding-left: 0px;
+    width: 100%;
+}
+
+.call-section-img {
+    padding-left: 3%;
+    width: 100%;
+}
+
+.best-section {
+    display: flex;
+    padding-top: 3%;
+    padding-right: 12%;
+    padding-left: 12%;
+    background-color: #f2f2f2;
+}
+
+.best-text h1 {
+    font-size: 40px;
+    font-family: Roboto, sans-serif;
+
+}
+
+.best-text p {
+    padding-top: 8%;
+    font-size: 25px;
+}
+
+.best-text button {
+    margin-top: 25px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #e71a23;
+    border: none;
+    border-radius: 1px ;
+}
+
+.engineer-part img {
+    width: 90%;
+}
+
+.best-text .hori-line {
+    width: 100%;
+    size: 40px;
+    height: 10px;
+    border-style: solid;
+    border-width: 5px;
+    color: #e71a23;
+    margin-top: 25px;
+}
+
+.our-services {
+    width: 100%;
+    padding-top: 4%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+    padding-top: 4%;
+}
+
+.service-icon .service-item {
+    padding-top: 8%;
+    padding-right: 12%;
+
+}
+
+.service-icon .service-p {
+    padding-top: 3%;
+}
+
+.service img {
+    background-color: #e71a23;
+    border-radius: 50%;
+    width: 20%;
+    padding-top: 3%;
+}
+
+.about {
+    display: flex;
+    background-color: #104e92;
+    width: 100%;
+    margin-top: 50px;
+    flex-direction: row;
+    color: white;
+    padding-bottom: 3%;
+}
+
+
+.about .about-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    padding-left: 15%;
+    padding-right: 0;
+}
+
+.about .about-section p {
+    font-size: 35px;
+    font-family: Roboto,sans-serif;
+}
+
+.about .about-section h3 {
+    font-size: 80px;
+    font-family: Roboto,sans-serif;
+}
+
+.about .about-container {
+    display: flex;
+}
+
+.image-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.image-section .image-section-first-row {
+    display: flex;
+    flex-direction: row;
+    gap: 3%
+}
+
+.first-image img {
+    width: 100%;
+}
+
+.second-image img {
+    width: 100%;
+}
+
+.image-section .image-section-second-row {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    padding-top: 3%;
+}
+
+.third-image img {
+    width: 100%;
+}
+
+.fourth-image img {
+    width: 100%;
+}
+
+.info-part,.get-to, .long-lasting, .btn-section {
+    text-align: center;
+}
+
+.get-to {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.long-lasting {
+    font-size: 25px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.btn-section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+    justify-content: center;
+}
+
+.btn-now {
+    background-color: #e71a23;
+    border: none;
+    border-radius: 2px;
+    margin-right: 1%;
+    padding: 15px 60px;
+}
+
+.call-btn {
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 2px;
+    margin-left: 1%;
+    padding: 15px 60px;
+}
+
+.get-to {
+    padding-top: 5%;
+}
+
+.long-lasting {
+    padding-top: 2%;
+}
+
+.btn-section {
+    padding-top: 2%;
+}
+
+
+@media (max-width: 426px) {
+    #painter-part {
+        height: 75vh;
+    }
+
+    #painter-part .container p {
+        font-size: 30px;
+        margin-top: 200px;
+    }
+
+    #painter-part .container h1 {
+        font-size: 40px;
+    }
+
+    .text-section {
+        display: none;
+    }
+
+    .service-routine {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .plumber-details{
+        display: flex;
+        flex-direction: column;
+    }
+    .call-section{
+        margin-top: 10%;
+    }
+
+    .best-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .best-text h1 {
+        padding-top: 50%;
+    }
+
+    .best-text p {
+        padding-top: 30px;
+    }
+
+    .engineer-part img {
+        width: 100%;
+        padding-right: 12%;
+        padding-left: 12%;
+        
+    }
+
+    .service-image img {
+        width: 30%;
+    }
+    .service {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about .about-container {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 4%;
+    }
+    
+    .about .about-section p {
+        font-size: 20px;
+    }
+
+    .about .about-section h3 {
+        font-size: 60px;
+        color: white;
+    }
+    
+    .about .image-section {
+        width: 80%;
+    }
+
+    .image-section .image-section-first-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-section .image-section-first-row .first-image {
+        padding-bottom: 5%;
+    }
+
+    .third-image {
+        padding-bottom: 5%;
+    }
+
+    .image-section .image-section-second-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .get-to {
+        font-size: 30px;
+    }
+    
+    .btn-section {
+    display: flex;
+    flex-direction: column;
+    padding: 25%;
+    gap: 2%;
+    }
+
+    .book-noww {
+        margin-bottom: 20%;
+    }
+
+    .call-btn {
+        margin-top: 20%;
+    }
+}
+
+
+@media (max-width: 780px) {
+    #painter-part {
+        height: 90vh;
+    }
+
+    .services .services-container .service-routine {
+        line-height: 1.5;
+        font-size: 20px;
+    }
+
+    .plumber-details{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about .about-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about .image-section {
+        width: 80%;
+    }
+
+}
+
+
